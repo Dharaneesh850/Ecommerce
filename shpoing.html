@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopNext Shopping</title>
+ <link rel="shortcut icon" href="shopimg/shopin logo.png" type="image/x-icon">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f8f8f8;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #fffbfb;
+      color: #000000;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+
+    .navbar h1 {
+      font-size: 24px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar ul li a {
+      color: #000000;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      color: #c53121;
+    }
+
+    /* Banner */
+    .banner {
+      background: url(shopimg/Blue\ Modern\ Geometric\ Shape\ Linkedin\ Banner.png) no-repeat center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 2px 6px rgba(45, 45, 45, 0.5);
+    }
+
+    .banner h2 {
+      font-size: 40px;
+      background: rgba(0,0,0,0.4);
+      padding: 15px 30px;
+      border-radius: 8px;
+    }
+
+    /* Products */
+    .products {
+      padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .product-info {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-info h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .product-info p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 8px 15px;
+      background: #b01b1b;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #bd5151;
+    }
+
+    /* Footer */
+    footer {
+      background: #818080;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>ShopNext</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+
+  <!-- Banner -->
+  <div class="banner">
+    <h2>Welcome to ShopNext</h2>
+  </div>
+
+  <!-- Products -->
+  <section class="products">
+    <div class="product-card">
+      <img src="shopimg/Classic White Shirt.webp" alt="Product">
+      <div class="product-info">
+        <h3>Classic White Shirt</h3>
+        <p>₹1,499</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="shopimg/Denim Casual Shirt.jpg" alt="Product">
+      <div class="product-info">
+        <h3>Denim Casual Shirt</h3>
+        <p>₹799</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="shopimg/Linen Summer Shirt.jpg" alt="Product">
+      <div class="product-info">
+        <h3>Linen Summer Shirt</h3>
+        <p>₹2,999</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="shopimg/Checked Flannel Shirt.avif" alt="Product">
+      <div class="product-info">
+        <h3>Checked shirt</h3>
+        <p>₹1,199</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+  <section class="products">
+    <div class="product-card">
+      <img src="shopimg/Classic Leather Strap Watch.webp" alt="Product">
+      <div class="product-info">
+        <h3>Classic watch</h3>
+        <p>₹3,499</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="shopimg/Daniel Klein Men's Analog Watch.webp" alt="Product">
+      <div class="product-info">
+        <h3>Daniel Men WatchCool</h3>
+        <p>₹1,999</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="shopimg/Casual Chino Pants.webp" alt="Product">
+      <div class="product-info">
+        <h3>Casual Chino Pants</h3>
+        <p>₹1,999</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="shopimg/Track Pants.webp" alt="Product">
+      <div class="product-info">
+        <h3>Track Pants</h3>
+        <p>₹999</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+    </section>
+  <section class="products">
+    <div class="product-card">
+      <img src="shopimg/Vivo Neo Lite.jpg" alt="Product">
+      <div class="product-info">
+        <h3>Vivo Neo Lite</h3>
+        <p>₹50,999</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="shopimg/Bass Boost Wireless Headphones.jpg" alt="Product">
+      <div class="product-info">
+        <h3> Boost Wireless Headphones</h3>
+        <p>₹50,000</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="shopimg/iPhone Max Ultra.jpg" alt="Product">
+      <div class="product-info">
+        <h3>iPhone Max Ultra</h3>
+        <p>₹1,9500</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="shopimg/Headphones.jpg" alt="Product">
+      <div class="product-info">
+        <h3>  Headphones</h3>
+        <p>₹1,999</p>
+        <a href="order.html" class="btn">Add to Cart</a>
+      </div>
+    </div>
+   </section>
+
+   
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 ShopNext. All rights reserved.</p>
+  </footer>
+</body>
+</html>
